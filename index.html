@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" style="box-sizing: border-box; margin: 0; padding: 0;">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>mwl API</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="menu-style.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="menu">
+            <div class="content-container">
+                <div class="menu-content">
+                    <div id="logo">
+                        mwlStats
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="welcome-container">
+                    <img id="bg-time" src="time.svg" alt="" />
+                    <div class="welcome-content">
+                        <span
+                            >En snabb inblick i din flygstatistik för det gångna
+                            året.</span
+                        >
+                        <span
+                            >För att få tillgång till din statistik måste du
+                            logga in på myWebLog. Detta sker lokalt för din
+                            trygghet.</span
+                        >
+                        <div class="cta-button">Logga in</div>
+                    </div>
+
+                    <div class="form-container">
+                        <div class="form-placebo">
+                            <img src="close.svg" alt="" id="close-button" />
+                            <img src="mwl.png" alt="" />
+                            <form action="" id="login-form">
+                                <div>
+                                    <label for="user">Användarnamn</label>
+                                    <input
+                                        name="user"
+                                        type="text"
+                                        placeholder="108-3160"
+                                    />
+                                </div>
+                                <div>
+                                    <label for="pswd">Lösenord</label>
+                                    <input
+                                        name="pswd"
+                                        type="password"
+                                        placeholder="Lösenord"
+                                    />
+                                </div>
+                                <div id="login">Logga in</div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-container"></div>
+            </div>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>
